@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio de Sihem Barghouda, développeuse Full Stack Junior. Découvrez ses compétences, expériences et projets.">
+
+    <meta name="author" content="Sihem Barghouda">
+
+    <title>Sihem Barghouda | Junior Full Stack Developer</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                SIHEM<span>.</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                <li><a href="#about" data-fr="À propos" data-en="About">À propos</a></li>
+                <li><a href="#skills" data-fr="Compétences" data-en="Skills">Compétences</a></li>
+                <li><a href="#projects" data-fr="Projets" data-en="Projects">Projets</a></li>
+                <li><a href="#experience" data-fr="Expériences" data-en="Experience">Expériences</a></li>
+                <li><a href="#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="language-toggle" class="language-btn" type="button">
+                    EN
+                </button>
+
+                <a href="#contact" class="nav-contact" data-fr="Me contacter" data-en="Contact me">
+                    Me contacter
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home" class="hero section">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="availability">
+                        <span class="status-dot"></span>
+                        <span data-fr="Développeuse Full Stack Junior"
+                              data-en="Junior Full Stack Developer">
+                            Développeuse Full Stack Junior
+                        </span>
+                    </span>
+
+                    <h1>
+                        <span data-fr="Bonjour, je suis" data-en="Hello, I'm">
+                            Bonjour, je suis
+                        </span>
+                        <span class="gradient-text">Sihem Barghouda</span>
+                    </h1>
+
+                    <h2 data-fr="Je transforme les idées en expériences numériques."
+                        data-en="I transform ideas into digital experiences.">
+                        Je transforme les idées en expériences numériques.
+                    </h2>
+
+                    <p
+                        data-fr="Développeuse Full Stack Junior passionnée par la création d'applications web modernes, les nouvelles technologies et les solutions innovantes."
+                        data-en="Junior Full Stack Developer passionate about building modern web applications, exploring new technologies and creating innovative solutions.">
+                        Développeuse Full Stack Junior passionnée par la création d'applications web modernes, les nouvelles technologies et les solutions innovantes.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary"
+                           data-fr="Découvrir mes projets"
+                           data-en="Explore my projects">
+                            Découvrir mes projets
+                        </a>
+
+                        <a href="assets/CV.pdf" target="_blank" class="btn btn-outline"
+                           data-fr="Voir mon CV"
+                           data-en="View my CV">
+                            Voir mon CV
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/sihembarghouda"
+                           target="_blank" rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+
+                        <a href="https://collective.work/profile/sihem-barghouda"
+                           target="_blank" rel="noopener noreferrer">
+                            LinkedIn / Profile ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="hero-card">
+                        <div class="code-window">
+
+                            <div class="window-header">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="code-content">
+                                <p><span class="code-purple">const</span> developer = {</p>
+                                <p>&nbsp;&nbsp;name: <span class="code-green">'Sihem'</span>,</p>
+                                <p>&nbsp;&nbsp;role: <span class="code-green">'Full Stack Developer'</span>,</p>
+                                <p>&nbsp;&nbsp;passion: <span class="code-green">'Technology'</span>,</p>
+                                <p>&nbsp;&nbsp;creative: <span class="code-orange">true</span>,</p>
+                                <p>&nbsp;&nbsp;learning: <span class="code-orange">true</span></p>
+                                <p>};</p>
+                                <br>
+                                <p class="code-comment">// Building the future...</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="floating-tag tag-one">React.js</div>
+                    <div class="floating-tag tag-two">Node.js</div>
+                    <div class="floating-tag tag-three">TypeScript</div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                <span data-fr="Défiler pour découvrir" data-en="Scroll to explore">
+                    Défiler pour découvrir
+                </span>
+                <span>↓</span>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section about-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">01 — ABOUT</span>
+                    <h2 data-fr="À propos de moi" data-en="About Me">
+                        À propos de moi
+                    </h2>
+                    <p data-fr="Apprendre, créer et évoluer dans le monde du développement."
+                       data-en="Learning, creating and growing in the world of development.">
+                        Apprendre, créer et évoluer dans le monde du développement.
+                    </p>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-description">
+
+                        <h3 data-fr="Passionnée par le développement et l'innovation."
+                            data-en="Passionate about development and innovation.">
+                            Passionnée par le développement et l'innovation.
+                        </h3>
+
+                        <p
+                            data-fr="Je suis Sihem Barghouda, développeuse Full Stack Junior diplômée en Technologie de l'Informatique, spécialité Développement des Systèmes d'Information."
+                            data-en="I am Sihem Barghouda, a Junior Full Stack Developer graduated in Information Technology, specializing in Information Systems Development.">
+                            Je suis Sihem Barghouda, développeuse Full Stack Junior diplômée en Technologie de l'Informatique, spécialité Développement des Systèmes d'Information.
+                        </p>
+
+                        <p
+                            data-fr="J'aime concevoir et développer des applications web et mobiles, travailler sur des projets concrets et découvrir de nouvelles technologies."
+                            data-en="I enjoy designing and developing web and mobile applications, working on real-world projects and discovering new technologies.">
+                            J'aime concevoir et développer des applications web et mobiles, travailler sur des projets concrets et découvrir de nouvelles technologies.
+                        </p>
+
+                        <p
+                            data-fr="Mon objectif est de continuer à développer mes compétences techniques et de contribuer à des projets innovants au sein d'une équipe dynamique."
+                            data-en="My goal is to keep improving my technical skills and contribute to innovative projects within a dynamic team.">
+                            Mon objectif est de continuer à développer mes compétences techniques et de contribuer à des projets innovants au sein d'une équipe dynamique.
+                        </p>
+
+                    </div>
+
+                    <div class="about-info">
+
+                        <div class="info-card">
+                            <span class="info-icon">🎓</span>
+                            <h4 data-fr="Formation" data-en="Education">Formation</h4>
+                            <p>ISET Tozeur</p>
+                        </div>
+
+                        <div class="info-card">
+                            <span class="info-icon">💻</span>
+                            <h4 data-fr="Spécialité" data-en="Specialization">Spécialité</h4>
+                            <p>Full Stack Development</p>
+                        </div>
+
+                        <div class="info-card">
+                            <span class="info-icon">🌍</span>
+                            <h4 data-fr="Localisation" data-en="Location">Localisation</h4>
+                            <p>Tunisia</p>
+                        </div>
+
+                        <div class="info-card">
+                            <span class="info-icon">🚀</span>
+                            <h4 data-fr="Objectif" data-en="Goal">Objectif</h4>
+                            <p data-fr="Évoluer et innover" data-en="Grow and innovate">
+                                Évoluer et innover
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section skills-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">02 — SKILLS</span>
+                    <h2 data-fr="Mes compétences" data-en="My Skills">
+                        Mes compétences
+                    </h2>
+                    <p data-fr="Les technologies et outils que j'utilise."
+                       data-en="The technologies and tools I work with.">
+                        Les technologies et outils que j'utilise.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⌨️</div>
+                        <h3 data-fr="Frontend" data-en="Frontend">Frontend</h3>
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>React.js</span>
+                            <span>Next.js</span>
+                            <span>Angular</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⚙️</div>
+                        <h3 data-fr="Backend" data-en="Backend">Backend</h3>
+                        <div class="skill-tags">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>NestJS</span>
+                            <span>FastAPI</span>
+                            <span>Symfony</span>
+                            <span>PHP</span>
+                            <span>Python</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">🗄️</div>
+                        <h3 data-fr="Bases de données" data-en="Databases">
+                            Bases de données
+                        </h3>
+                        <div class="skill-tags">
+                            <span>PostgreSQL</span>
+                            <span>MySQL</span>
+                            <span>MongoDB</span>
+                            <span>Odoo</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">📱</div>
+                        <h3 data-fr="Mobile" data-en="Mobile">Mobile</h3>
+                        <div class="skill-tags">
+                            <span>React Native</span>
+                            <span>Expo</span>
+                            <span>Flutter</span>
+                            <span>FlutterFlow</span>
+                            <span>Dart</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">🛠️</div>
+                        <h3 data-fr="Outils & DevOps" data-en="Tools & DevOps">
+                            Outils & DevOps
+                        </h3>
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Docker</span>
+                            <span>Postman</span>
+                            <span>Jira</span>
+                            <span>VS Code</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">🤖</div>
+                        <h3 data-fr="Intelligence artificielle" data-en="Artificial Intelligence">
+                            Intelligence artificielle
+                        </h3>
+                        <div class="skill-tags">
+                            <span>OpenRouter API</span>
+                            <span>OpenAI APIs</span>
+                            <span>Claude Code</span>
+                            <span>Cursor</span>
+                            <span>Cline</span>
+                            <span>Codex</span>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="methodology">
+                    <h3 data-fr="Méthodologies de travail" data-en="Work Methodologies">
+                        Méthodologies de travail
+                    </h3>
+                    <div class="skill-tags">
+                        <span>Agile</span>
+                        <span>Scrum</span>
+                        <span>Teamwork</span>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section projects-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">03 — PROJECTS</span>
+                    <h2 data-fr="Mes projets" data-en="My Projects">
+                        Mes projets
+                    </h2>
+                    <p data-fr="Quelques réalisations de mon parcours."
+                       data-en="Some projects from my journey.">
+                        Quelques réalisations de mon parcours.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card featured-project">
+
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-category">Full Stack · AI</span>
+                        </div>
+
+                        <h3>VAT_Dattes</h3>
+
+                        <p
+                            data-fr="Plateforme web et mobile dédiée à la chaîne de valeur des dattes. Elle facilite les interactions entre acheteurs, vendeurs et transporteurs et intègre des fonctionnalités basées sur l'intelligence artificielle."
+                            data-en="Web and mobile platform dedicated to the date value chain. It facilitates interactions between buyers, sellers and drivers and integrates artificial intelligence features.">
+                            Plateforme web et mobile dédiée à la chaîne de valeur des dattes. Elle facilite les interactions entre acheteurs, vendeurs et transporteurs et intègre des fonctionnalités basées sur l'intelligence artificielle.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>React Native</span>
+                            <span>NestJS</span>
+                            <span>PostgreSQL</span>
+                            <span>Docker</span>
+                            <span>AI</span>
+                        </div>
+
+                        <div class="project-footer">
+                            <span data-fr="Projet de fin d'études" data-en="Graduation project">
+                                Projet de fin d'études
+                            </span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-category">Web Development</span>
+                        </div>
+
+                        <h3>Notes Management App</h3>
+
+                        <p
+                            data-fr="Application web de gestion de notes développée durant mon stage chez ITQAN Labs. Le projet repose sur une architecture frontend et backend avec une base de données relationnelle."
+                            data-en="Web-based notes management application developed during my internship at ITQAN Labs. The project uses a frontend and backend architecture with a relational database.">
+                            Application web de gestion de notes développée durant mon stage chez ITQAN Labs. Le projet repose sur une architecture frontend et backend avec une base de données relationnelle.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="project-footer">
+                            <span>ITQAN Labs · 2025</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="section experience-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">04 — EXPERIENCE</span>
+                    <h2 data-fr="Mon parcours professionnel"
+                        data-en="My Professional Journey">
+                        Mon parcours professionnel
+                    </h2>
+                    <p data-fr="Mes expériences et mon parcours académique."
+                       data-en="My professional and academic background.">
+                        Mes expériences et mon parcours académique.
+                    </p>
+                </div>
+
+                <div class="timeline">
+
+                    <article class="timeline-item">
+
+                        <span class="timeline-dot"></span>
+
+                        <div class="timeline-content">
+                            <span class="timeline-date">2026 · February – June</span>
+
+                            <h3>Full Stack Developer — PFE</h3>
+
+                            <h4>Desert Navigation · Tozeur</h4>
+
+                            <p
+                                data-fr="Développement de VAT_Dattes, une plateforme web et mobile dédiée à la chaîne de valeur des dattes, avec intégration de fonctionnalités d'intelligence artificielle."
+                                data-en="Development of VAT_Dattes, a web and mobile platform dedicated to the date value chain, with integrated artificial intelligence features.">
+                                Développement de VAT_Dattes, une plateforme web et mobile dédiée à la chaîne de valeur des dattes, avec intégration de fonctionnalités d'intelligence artificielle.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item">
+
+                        <span class="timeline-dot"></span>
+
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 · January – February</span>
+
+                            <h3>Web Development Intern</h3>
+
+                            <h4>ITQAN Labs</h4>
+
+                            <p
+                                data-fr="Participation au développement d'une application de gestion de notes avec React.js, Node.js et MySQL."
+                                data-en="Contributed to the development of a notes management application using React.js, Node.js and MySQL.">
+                                Participation au développement d'une application de gestion de notes avec React.js, Node.js et MySQL.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item">
+
+                        <span class="timeline-dot"></span>
+
+                        <div class="timeline-content">
+                            <span class="timeline-date">2016 – 2020</span>
+
+                            <h3 data-fr="Enseignante de français"
+                                data-en="French Teacher">
+                                Enseignante de français
+                            </h3>
+
+                            <h4>AYA School · Tozeur</h4>
+
+                            <p
+                                data-fr="Enseignement du français et accompagnement des élèves dans leur apprentissage."
+                                data-en="Teaching French and supporting students throughout their learning process.">
+                                Enseignement du français et accompagnement des élèves dans leur apprentissage.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION SECTION -->
+        <section id="education" class="section education-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">05 — EDUCATION</span>
+                    <h2 data-fr="Formation académique" data-en="Education">
+                        Formation académique
+                    </h2>
+                </div>
+
+                <div class="education-grid">
+
+                    <article class="education-card">
+                        <span class="education-year">2023 – 2026</span>
+
+                        <h3>Licence en Technologie de l'Informatique</h3>
+
+                        <p data-fr="Spécialité : Développement des Systèmes d'Information"
+                           data-en="Specialization: Information Systems Development">
+                            Spécialité : Développement des Systèmes d'Information
+                        </p>
+
+                        <h4>ISET Tozeur</h4>
+
+                        <span class="education-note"
+                              data-fr="Mention Très Bien · Félicitations du jury"
+                              data-en="Very Good Honors · Jury Congratulations">
+                            Mention Très Bien · Félicitations du jury
+                        </span>
+                    </article>
+
+                    <article class="education-card">
+                        <span class="education-year">2021 – 2023</span>
+
+                        <h3>BTS Services Informatiques aux Organisations</h3>
+
+                        <p data-fr="Formation en informatique"
+                           data-en="Information Technology Training">
+                            Formation en informatique
+                        </p>
+
+                        <h4>École privée Santé & Informatique · Tozeur</h4>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        
+<section id="contact" class="section contact-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">06 — CONTACT</span>
+
+            <h2 data-fr="Travaillons ensemble"
+                data-en="Let's Work Together">
+                Travaillons ensemble
+            </h2>
+
+            <p
+                data-fr="Vous avez un projet ou une opportunité professionnelle ? N'hésitez pas à me contacter."
+                data-en="Have a project or professional opportunity? Feel free to contact me.">
+                Vous avez un projet ou une opportunité professionnelle ? N'hésitez pas à me contacter.
+            </p>
+        </div>
+
+        <div class="contact-content">
+
+            <a href="https://github.com/sihembarghouda"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card">
+                <span>💻</span>
+                <h3>GitHub</h3>
+                <p>github.com/sihembarghouda</p>
+            </a>
+
+            <a href="https://www.linkedin.com/in/sihembarghouda/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card">
+                <span>💼</span>
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/sihembarghouda</p>
+            </a>
+
+            <a href="https://collective.work/profile/sihem-barghouda"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card">
+                <span>🔗</span>
+                <h3>Collective.work</h3>
+                <p>Voir mon profil freelance</p>
+            </a>
+
+            <a href="assets/CV.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card">
+                <span>📄</span>
+                <h3>CV</h3>
+                <p data-fr="Consulter mon CV"
+                   data-en="View my resume">
+                    Consulter mon CV
+                </p>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+             
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">SIHEM<span>.</span></a>
+
+            <p>
+                © 2026 Sihem Barghouda.
+                <span data-fr="Tous droits réservés."
+                      data-en="All rights reserved.">
+                    Tous droits réservés.
+                </span>
+            </p>
+
+            <a href="#home" class="back-to-top">↑</a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
